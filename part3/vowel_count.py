@@ -8,7 +8,6 @@ total_consonants = len(word) - total_vowels
 print("Гласных:", total_vowels)
 print("Согласных:", total_consonants)
 
-# Печатаем количество каждой гласной, иначе False
 for v in vowels:
     count = vowel_counts[v]
     print(f"{v}: {count if count > 0 else False}")
