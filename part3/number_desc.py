@@ -9,4 +9,5 @@ elif number > 0 and number % 2 != 0:
 elif number < 0 and number % 2 == 0:
     print("отрицательное четное число")
 else:
-    print("число не является четным")
+    print("отрицательное нечетное число")
+
