@@ -6,4 +6,4 @@ for i in range(1, N + 1):
     nums.append(int(input(f"{i}-е число: ")))
 
 print("Перевернутый массив:")
-print(*reversed(nums))         
+print(*nums[::-1])
