@@ -1,5 +1,5 @@
 import collections
-
+pets = {}
 def get_suffix(age: int) -> str:
     
     if 11 <= age % 100 <= 14:  
