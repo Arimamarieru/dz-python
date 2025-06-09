@@ -1,4 +1,3 @@
-# core/game.py
 from time import sleep
 
 from .config import GameConfig
