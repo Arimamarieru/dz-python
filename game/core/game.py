@@ -6,7 +6,6 @@ from .field import GameMap
 from .helicopter import Helicopter
 
 class Game:
-    """Простейший игровой цикл — только выводит число тиков."""
 
     def __init__(self, cfg: GameConfig):
         self.cfg = cfg
