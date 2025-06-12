@@ -45,7 +45,7 @@ class Game:
             self.heli.lives -= 1
             self.status = f'🔥 Обожглись! Жизней: {self.heli.lives}'
 
-        # штраф очков за пепел под ногами
+        # штраф очков за пепел под игроком
         if self.board.burned(self.heli.y, self.heli.x):
             self.heli.score -= 1
 
