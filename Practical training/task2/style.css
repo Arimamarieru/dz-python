@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+.counter {
+    text-align: center;
+}
+
+#result {
+    width: 160px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    font-size: 40px;
+    background: red;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background: linear-gradient(135deg, #ffffff, #b8c6db);
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+#message {
+    min-height: 24px;
+    margin-top: 15px;
+}
